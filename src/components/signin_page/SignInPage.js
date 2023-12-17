@@ -61,7 +61,7 @@ function SigninPage() {
 
   return (
     <Container
-      className="square bg-#9A616D rounded py-5 px-5"
+      className="square bg-#9A616D rounded mt-5 py-5 px-5"
       style={{
         width: '850px',
         height: '660px',
@@ -170,9 +170,11 @@ function SigninPage() {
               }}
             >
               <Col>
-                Don't have an account?{' '}
+                "Don't have an account?"{' '}
+              </Col>
+              <Col>
                 <Link to={`/signup`}>
-                  <a href="">Register here</a>
+                  <a href="#!">Register here</a>
                 </Link>
               </Col>
             </Row>
