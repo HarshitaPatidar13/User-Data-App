@@ -172,7 +172,7 @@ function SigninPage() {
               <Col>
                 Don't have an account?{' '}
                 <Link to={`/signup`}>
-                  <a href="#!">Register here</a>
+                  <a href="">Register here</a>
                 </Link>
               </Col>
             </Row>
